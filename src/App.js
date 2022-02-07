@@ -8,7 +8,7 @@ export default function App() {
 
 
   const [currentAccount, setCurrentAccount] = React.useState("");
-  const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+  const contractAddress = "0x70CfF92B4FF5F1A1CF3c6eb94D82d22a030DF1F4";
   const [allWaves, setAllWaves] = React.useState([]);
   const contractABI = abi.abi;
   const [txn, settxn] = React.useState("");
